@@ -14,3 +14,26 @@ body{
 
 
 /*header*/
+
+header.site-init{
+    background-image: url(./img/header.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+.bar{
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    color: white;
+    padding: 10px;
+}
+
+/*menu*/
+.menu a{
+    color: white;
+    padding: 10px;
+}
