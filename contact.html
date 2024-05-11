@@ -8,10 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Real Estate</title>
+    <title>Contact Us</title>
 </head>
-
-
     <header>
     <body>
         <header class="site-contact">
@@ -20,18 +18,18 @@
         <nav>
                 <a href="about.html">About</a>
                 <a href="blog.html">Blog</a>
-                <a href="contact.hhtml">Contact</a>
+                <a href="contact.html">Contact</a>
         </nav>
     </div>
     </header>
-    <main class="container">
+    <main class="contact-container">
         <h2>Contact</h2>
 
         <p class="bt">Fill the next information</p>
-        <p class="lt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores tempore voluptatibus architecto optio unde obcaecati delectus aspernatur quibusdam distinctio similique! <i class="fa-solid fa-circle-info"></i></p>
+        <p class="lt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-circle-info"></i></p>
 
 
-            <div>
+            <div class="form-container">
                 <fieldset>
                     <legend>Personal Information</legend>
                     <div class="form-control">
@@ -52,64 +50,62 @@
                     </div>
                 </fieldset>
 
-                <div>
-                    <fieldset>
+                <fieldset>
                         <legend>Product Information</legend>
                         <div class="form-control">
                             <label>Type:</label>
-                            <input type="option">
+                            <select>
+                                <option value="option 1">Option 1</option>
+                                <option value="option 2">Option 2</option>
+                                <option value="option 3">Option 3</option>
+                            </select>
                         </div>
                         <div class="form-control">
                             <label>Number:</label>
                             <input type="number">
                         </div>
-
-                        <div>
-                            <fieldset>
-                                <legend>Contact Information</legend>
-                                <div class="form-control">
-                                    <label>Type:</label>
-                                    <input type="radio">
-                                </div>
-                                <div class="form-control">
-                                    <label>Phone:</label>
-                                    <input type="radio">
-                                </div>
-                                <div class="form-control">
-                                    <label>Date:</label>
-                                    <input type="date">
-                                </div>
-                                <div class="form-control">
-                                    <label>Hour:</label>
-                                    <input type="number">
-                                </div>
-                </div>
                     </fieldset>
 
-
-
-
-
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div class="form-control flex c">
+                            <div class="flex-c">
+                                <label>Email:</label>
+                                <input type="radio">
+                            
+                            <div class="flex-c">
+                                <label>Phone:</label>
+                                <input type="radio">
+                            </div>
+                        </div>
+                        <div class="form-control">
+                            <label>Date:</label>
+                            <input type="date">
+                        </div>
+                        <div class="form-control">
+                            <label>Hour:</label>
+                            <input type="time">
+                        </div>
+                    </fieldset>
             </div>
         </main>
 
 
-        <footer class="container">
-            <div>
-                <div>
+        <footer>
+                <div class="footer-flex">
                     <p>Powered by Zillow</p>
-                </div>
-                <div>
+                
+                <div class="footer-flex">
                 <p>Copyright &copy; 2024</p>
                 <p>|</p>
-                <p>Privacy Policy</p>
+                <p class="bt"><a href="#">Privacy Policy</a></p>
             </div>
-            <div>
+            
+            <div class="footer-flex">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </div>
-        </div>
     </footer>
 
 </body>
